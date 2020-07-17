@@ -1,6 +1,6 @@
 //  Created by oh-mms. 2020.
 //  e-mail	: chohmms@gmail.com
-//  blog		: https://blog.naver.com/oh-mms
+//  blog	: https://blog.naver.com/oh-mms
 //  gitHub	: https://github.com/oh-mms
 //  You can use it freely in any way.
 //  If you want to contact me, please send a mail.
@@ -15,7 +15,7 @@ class Node {
 	friend class LinkedList;
 
 private:
-	T					 m_iData;
+	T		 m_iData;
 	Node<T>*	 m_pNext;
 
 private:
@@ -36,7 +36,7 @@ template <typename T>
 class LinkedList {
 
 	typedef Node<T>		NODE;
-	typedef Node<T>*		PNODE;
+	typedef Node<T>*	PNODE;
 
 private:
 	//PNODE tail;		// If you add a tail pointer in this class, then you can use this more easily.
