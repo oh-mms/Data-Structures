@@ -1,6 +1,6 @@
 //  Created by oh-mms. 2020.
 //  e-mail	: chohmms@gmail.com
-//  blog		: https://blog.naver.com/oh-mms
+//  blog	: https://blog.naver.com/oh-mms
 //  gitHub	: https://github.com/oh-mms
 //  You can use it freely in any way.
 //  If you want to contact me, please send a mail.
@@ -15,7 +15,7 @@ class Node {
 	friend class Stack;
 
 private:
-	T					 m_data;
+	T		 m_data;
 	Node<T>*	 m_pNext;
 
 private:
@@ -27,7 +27,7 @@ private:
 template <typename T>
 class Stack {
 
-	typedef Node<T>	NODE;
+	typedef Node<T>		NODE;
 	typedef Node<T>*	PNODE;
 
 private:
