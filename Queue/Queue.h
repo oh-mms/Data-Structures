@@ -15,7 +15,7 @@ class Node {
 	friend class Queue;
 
 private:
-	T				m_Data;
+	T		m_Data;
 	Node<T>*	m_pNext;
 	Node<T>*	m_pPrev;
 
@@ -33,12 +33,12 @@ template <typename T>
 class Queue {
 
 	typedef Node<T>		NODE;
-	typedef Node<T>*		PNODE;
+	typedef Node<T>*	PNODE;
 
 private:
 	PNODE	m_pFront;
 	PNODE	m_pRear;
-	int		m_iSize;
+	int	m_iSize;
 
 public:
 	Queue() {
