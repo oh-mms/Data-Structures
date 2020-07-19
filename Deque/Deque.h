@@ -1,6 +1,6 @@
 //  Created by oh-mms. 2020.
 //  e-mail		: chohmms@gmail.com
-//  blog			: https://blog.naver.com/oh-mms
+//  blog		: https://blog.naver.com/oh-mms
 //  gitHub		: https://github.com/oh-mms
 //  You can use it freely in any way.
 //  If you want to contact me, please send a mail.
@@ -15,9 +15,9 @@ class Node {
 	friend class Deque;
 
 private:
-	T				m_Data;
-	Node<T>* m_pNext;
-	Node<T>* m_pPrev;
+	T		m_Data;
+	Node<T>* 	m_pNext;
+	Node<T>* 	m_pPrev;
 
 private:
 	Node() {
@@ -38,7 +38,7 @@ class Deque {
 private:
 	PNODE	m_pFront;
 	PNODE	m_pBack;
-	int		m_iSize;
+	int	m_iSize;
 
 public:
 	Deque() {
