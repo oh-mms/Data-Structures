@@ -14,7 +14,7 @@ class Edge {
 	template <typename T>
 	friend class Node;
 
-	typedef Node<T>	NODE;
+	typedef Node<T>		NODE;
 	typedef Node<T>*	PNODE;
 	typedef Edge<T>*	PEDGE;
 
@@ -54,12 +54,12 @@ class Node {
 	friend class Edge;
 
 private:
-	typedef Node<T>*		PNODE;
+	typedef Node<T>*	PNODE;
 	typedef Edge<T>		EDGE;
-	typedef Edge<T>*		PEDGE;
+	typedef Edge<T>*	PEDGE;
 
 private:
-	T					m_Data;
+	T			m_Data;
 	PEDGE			m_pEdge;
 
 public:
