@@ -15,7 +15,7 @@ class Node {
 	friend class BinarySearchTree;
 
 private:
-	T				m_Data;
+	T		m_Data;
 	Node<T>*	m_pLeft;		// Left Child
 	Node<T>*	m_pRight;		// Right Child
 
@@ -33,11 +33,11 @@ template <typename T>
 class BinarySearchTree {
 	
 	typedef Node<T>		NODE;
-	typedef Node<T>*		PNODE;
+	typedef Node<T>*	PNODE;
 
 private:
 	PNODE	 m_pRoot;
-	int			 m_iSize;
+	int	 m_iSize;
 
 public:
 	BinarySearchTree() {
